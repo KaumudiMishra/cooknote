@@ -1,0 +1,134 @@
+body{
+    font-family:cursive;
+    background-color: #ceec97;
+    color: #f0dcbc;
+    padding: 20px;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.cooknote{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.cooknote h1{
+    text-decoration: underline;
+}
+
+.tagline{
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.recipe-card{
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.recipe-card:hover{
+    transform: scale(1.05);
+}
+
+.recipe-info{
+    padding:20px;
+}
+
+.recipe-info h2{
+    margin:0px;
+}
+
+.recipe-info p{
+    margin:10px 0;
+}
+
+.recipe-details{
+    padding: 20px;
+    display:none;
+}
+
+.recipe-card:hover .recipe-details{
+    display:block;
+}
+
+.recipe-details h3{
+    margin-top:0;
+}
+
+.recipe-details ul{
+    padding-left:20px;
+    text-align:left;
+}
+
+.recipe-details p{
+    text-align:left
+}
+
+#tea{
+    background-image: url("tea.jpg");
+    background-size: cover;
+    color:white;
+}
+
+#redpasta{
+    background-image: url("pasta.webp");
+    background-size: cover;
+    color:white;
+}
+
+#redpasta{
+    background-image: url("redpasta.webp");
+    background-size: cover;
+    color:white;
+}
+
+#whitepasta{
+    background-image: url("whitepasta.jpeg");
+    background-size:cover;
+    color:#240b36;
+}
+
+#chowmein{
+    background-image: url("Chowmein.jpeg");
+    background-size:cover;
+    color:#ffffff;
+}
+
+#burger{
+    background-image: url("burger.jpeg");
+    background-size:cover;
+    color:#ffffff;
+}
+
+#pizza{
+    background-image: url("pizza.jpeg");
+    background-size: cover;
+    color:white;
+}
+
+#chococake{
+    background-image: url("chococake.jpeg");
+    background-size:cover;
+    color:white;
+}
+
+#upma{
+    background-image: url("upma.jpeg");
+    background-size:cover;
+    color:#2a0800;
+}
+
+#masaladosa{
+    background-image: url("masaladosa.jpeg");
+    background-size:cover;
+    color:#ffffff;
+}
+
+#pulao{
+    background-image: url("pulao.jpeg");
+    background-size:cover;
+    color:#ffffff;
+}
